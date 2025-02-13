@@ -1,0 +1,61 @@
+.form-control {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: white;
+}
+
+.form-control.input-active {
+    padding: 12px 0px 0px 12px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.label-text {
+    pointer-events: none;
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    transition: all 0.2s ease;
+}
+
+.label-text.label-active {
+    top: 0;
+    transform: translateY(0);
+    font-size: 12px;
+}
+
+#hidden-password {
+    color: #fff;
+    cursor: pointer;
+}
+
+#hidden-password:hover {
+    color: #ccc;
+}
+#login-container,#register-container{
+    border:1px solid #ccc;
+    width: 350px;
+}
+.fs-14 {
+    font-size: 14px;
+}   
+
+.method-name:hover {
+    color: white;
+}
