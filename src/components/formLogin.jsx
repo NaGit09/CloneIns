@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TextInput from "./textInput";
 import PassInput from "./passInput";
-const FormLogin = ({ inputs }) => {
+const FormLogin = ({ inputs, button }) => {
   const [formValues, setFormValues] = useState(
     inputs.reduce((acc, input) => ({ ...acc, [input.name]: "" }), {})
   );
@@ -42,7 +42,7 @@ const FormLogin = ({ inputs }) => {
             : ""
         }`}
       >
-        Login
+        {button}
       </button>
     </form>
   );

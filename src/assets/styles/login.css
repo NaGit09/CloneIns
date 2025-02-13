@@ -3,9 +3,11 @@
     background-color: transparent;
     color: white;
 }
-.bg-dark{
-    background-color: black !important; 
+
+.bg-dark {
+    background-color: black !important;
 }
+
 .form-control:focus {
     box-shadow: none;
     background-color: transparent;
@@ -62,4 +64,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.full-height {
+    min-height: 100vh; 
+  }
+  
+#ins-name i {
+    background-image: url(../imgs/instagram.png);
+    background-position: 0px 0px;
+    background-size: auto;
+    width: 175px;
+    background-repeat: no-repeat;
+    height: 51px;
+    display: inline-block;
+}
+
+#login-container> div.bg-dark {
+    padding: 16px 28px;
 }

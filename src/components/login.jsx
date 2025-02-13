@@ -17,13 +17,15 @@ function Login() {
     },
   ];
   return (
-    <div className="fs-14 vh-100 bg-dark text-white">
+    <div className="fs-14 full-height bg-dark text-white">
       <div className="m-auto w-50 flex-center pt-4">
         <div className="flex-column flex-center gap-3 ">
           <div id="login-container">
-            <div className="label-ins"></div>
-            <div className="bg-dark p-5">
-              <FormLogin inputs={inputs} />
+            <div id="ins-name" className="text-center pt-5">
+              <i></i>
+            </div>
+            <div className="bg-dark">
+              <FormLogin inputs={inputs} button={"Log in"} />
               <div className="flex-center">
                 <div className="line"></div>
                 <span className="mx-2 text-white">Or</span>
