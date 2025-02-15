@@ -1,0 +1,7 @@
+#hidden-password {
+    color: #fff;
+    cursor: pointer;
+}
+#hidden-password:hover {
+    color: #ccc;
+}
