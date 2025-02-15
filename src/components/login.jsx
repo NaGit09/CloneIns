@@ -4,7 +4,7 @@ import { useState } from "react";
 // Layout Login
 function Login() {
   return (
-    <div className="fs-14">
+    <div className="fs-14 container">
       <div className="m-auto w-50 d-flex justify-content-center align-items-center">
         <div class=" d-flex flex-column justify-content-center align-items-center gap-3">
           <div id="login-container">
